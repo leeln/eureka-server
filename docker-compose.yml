@@ -1,6 +1,6 @@
 eurekaServer:
   image: docker.repo.leeln.com/leeln/eureka-server
-LB-configServer:
+LB-eurekaServer:
   ports:
   - 80:8080
   tty: true
