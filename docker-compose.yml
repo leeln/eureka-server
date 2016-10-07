@@ -1,0 +1,10 @@
+eurekaServer:
+  image: docker.repo.leeln.com/leeln/eureka-server
+LB-configServer:
+  ports:
+  - 80:8080
+  tty: true
+  image: rancher/load-balancer-service
+  links:
+  - eurekaServer:eurekaServer
+  stdin_open: true
