@@ -34,8 +34,6 @@ dependencies {
 	compile 'org.springframework.cloud:spring-cloud-starter-eureka-server',
 			'org.springframework.boot:spring-boot-starter-web',
 			'org.springframework.cloud:spring-cloud-config-server'
-//			'org.springframework.cloud:spring-cloud-config-monitor'
-//			'org.springframework.cloud:spring-cloud-starter-stream-rabbit'
 
 	testCompile 'org.springframework.boot:spring-boot-starter-test'
 }
