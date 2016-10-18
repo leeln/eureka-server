@@ -5,7 +5,5 @@ eureka:
     fetchRegistry: false
     service-url:
       defaultZone: http://eureka.leeln.com/eureka/
-  server:
-    waitTimeInMsWhenSyncEmpty: 0
 
 
